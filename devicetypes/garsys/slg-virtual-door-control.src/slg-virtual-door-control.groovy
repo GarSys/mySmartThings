@@ -23,3 +23,12 @@ def close(){
 	log.debug "Close"
 	sendEvent(name: "Door", value: "close");
 }
+def on(){
+	log.debug "On"
+	sendEvent(name: "Door", value: "open");
+}
+
+def off(){
+	log.debug "off"
+	sendEvent(name: "Door", value: "close");
+}
