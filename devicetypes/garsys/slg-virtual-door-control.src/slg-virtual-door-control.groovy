@@ -1,6 +1,7 @@
 metadata {
     definition(name: "SLG Virtual Door Control", namespace: "GarSys", author: "Scott Garver") {
 		capability "Door Control"
+        capability "Switch"
     }
 	tiles {
 		multiAttributeTile(name:"Door", type: "generic", width: 6, height: 4, canChangeIcon: true){
